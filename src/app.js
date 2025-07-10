@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 const express = require('express');
 const dataRoutes = require('./routes/data');
 const port = process.env.PORT || 3000;
